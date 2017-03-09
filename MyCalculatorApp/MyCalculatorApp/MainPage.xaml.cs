@@ -220,7 +220,7 @@ namespace MyCalculatorApp
 
 
 
-        //////////////////
+        /////////////
 
         private void btnPoint(object sender, System.EventArgs e)
         {
