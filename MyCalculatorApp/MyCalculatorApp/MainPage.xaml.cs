@@ -241,5 +241,13 @@ namespace MyCalculatorApp
             Output.Text = Convert.ToString(Convert.ToDouble(Output.Text) / 100);
         }
 
+        private void btnRed(object sender, System.EventArgs e)
+        {
+            LayoutRoot.Style = (Style)Resources["RedStyle"];
+        }
+        private void btnBlue(object sender, System.EventArgs e)
+        {
+            LayoutRoot.Style = (Style)Resources["BlueStyle"];
+        }
     }
 }
